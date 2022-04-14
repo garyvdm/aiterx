@@ -15,3 +15,6 @@ from aiterx.transform import (
     buffer_with_count,
     buffer_with_time,
 )
+from aiterx.subject import (
+    Subject,
+)

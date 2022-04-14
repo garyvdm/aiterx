@@ -42,6 +42,7 @@ check_untyped_defs = true
 
 [tool.pytest.ini_options]
 asyncio_mode = 'auto'
+addopts = '--cov-report xml:cov.xml --cov aiterx --cov-branch'
 
 [tool.black]
 line-length = 100
